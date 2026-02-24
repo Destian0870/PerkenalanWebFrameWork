@@ -22,4 +22,10 @@ return 'NIM: 244107020203 - Nama: Destian';
 return 'Halaman Artikel dengan ID ' . $id;
 }
 
+public function greeting(){
+ return view('blog.hello')
+ ->with('name','Destian')
+ ->with('occupation','Student');
+ }
+
 }
