@@ -23,7 +23,7 @@ Konfigurasi database di `.env`
 📸 Screenshot:
 
 ```md id="tkn3b3"
-![Database](images/step1-database.png)
+![Database](blog-filament/images/step1-database.png)
 ```
 
 ---
@@ -37,7 +37,7 @@ php artisan make:filament-panel admin
 📸 Screenshot:
 
 ```md id="rq9m1s"
-![Install Filament](images/step2-filament.png)
+![Install Filament](blog-filament/images/step2-filament.png)
 ```
 
 ---
@@ -51,7 +51,7 @@ php artisan make:filament-user
 📸 Screenshot:
 
 ```md id="9rzqzq"
-![User Admin](images/step3-user.png)
+![User Admin](blog-filament/images/step3-user.png)
 ```
 
 ---
@@ -66,11 +66,11 @@ php artisan make:model Post -m
 📸 Screenshot:
 
 ```md id="zx9a2n"
-![Migration File](images/step4A-migration.png)
+![Migration File](blog-filament/images/step4A-migration.png)
 ```
 
 ```md id="zx9a2n"
-![Migration File](images/step4B-migration.png)
+![Migration File](blog-filament/images/step4B-migration.png)
 ```
 
 ---
@@ -94,11 +94,11 @@ $table->foreignId('category_id')->constrained();
 📸 Screenshot:
 
 ```md id="y4u7h0"
-![Migration Code](images/step5A-structure.png)
+![Migration Code](blog-filament/images/step5A-structure.png)
 ```
 
 ```md id="y4u7h0"
-![Migration Code](images/step5B-structure.png)
+![Migration Code](blog-filament/images/step5B-structure.png)
 ```
 
 ---
@@ -112,7 +112,7 @@ php artisan migrate
 📸 Screenshot:
 
 ```md id="mzqkzj"
-![Migrate](images/step6-migrate.png)
+![Migrate](blog-filament/images/step6-migrate.png)
 ```
 
 ---
@@ -127,11 +127,11 @@ php artisan make:filament-resource Post
 📸 Screenshot:
 
 ```md id="4s8c9k"
-![Resource](images/step9A-resource.png)
+![Resource](blog-filament/images/step9A-resource.png)
 ```
 
 ```md id="4s8c9k"
-![Resource](images/step9B-resource.png)
+![Resource](blog-filament/images/step9B-resource.png)
 ```
 
 ---
@@ -141,19 +141,19 @@ php artisan make:filament-resource Post
 📸 Screenshot:
 
 ```md id="4c4zfp"
-![Form Category](images/step10-Hasil1.png)
+![Form Category](blog-filament/images/step10-Hasil1.png)
 ```
 
 ```md id="a9u4l9"
-![Form Post](images/step10-Hasil2.png)
+![Form Post](blog-filament/images/step10-Hasil2.png)
 ```
 
 ```md id="a9u4l9"
-![Form Post](images/step10-Hasil3.png)
+![Form Post](blog-filament/images/step10-Hasil3.png)
 ```
 
 ```md id="a9u4l9"
-![Form Post](images/step10-Hasil4.png)
+![Form Post](blog-filament/images/step10-Hasil4.png)
 ```
 
 ---
